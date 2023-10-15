@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+%============pcgs===================================
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[normalem]{ulem}
+%\usepackage{mhchem}
+\usepackage{url}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{subcaption}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{todonotes}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage[export]{adjustbox}
+%\usepackage{tabularx}f
+\usepackage{makecell}
+\usepackage{amsmath,amssymb}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {./photo/} }
+\usepackage[justification=centering]{caption}
+\usepackage{lscape}
+\usepackage{sectsty}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{parskip}
+\usepackage{listings}
+\usepackage{indentfirst}
+\usepackage{etoolbox}
+\usepackage[shortlabels]{enumitem}
+\usepackage[toc]{glossaries}
+\usepackage{amsmath}
+\usepackage{tocloft}
+\usepackage[final]{pdfpages}
+\usepackage[ampersand]{easylist}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[final]{pdfpages}
+\usepackage[ampersand]{easylist}
+
+
+
+\title{TI}
+\author{249580@student.pwr.edu.pl }
+\date{October 2023}
+
+\begin{document}
+
+\maketitle
+
+\newpage 
+
+\section{Zadanie nr 1 - wzory}
+
+\begin{equation}
+    (\sqrt{3} - \sqrt{2})^2 = (\sqrt{3})^2 - 2\sqrt{3}\sqrt{2} + (\sqrt{2})^2 = 5 - 2\sqrt{6}, 
+\end{equation}
+
+\begin{equation}
+    \frac{\sqrt[3]{40}}{\sqrt[3]{5}} = \sqrt[3]{\frac{40}{5}} = \sqrt[3]{8} = 2, 
+\end{equation}
+
+
+\begin{equation}
+    x_{n+1} = x_{n} + y_{n},  y_{n+1} = 4x_{n} - 2y_{n} +1,
+\end{equation}
+
+\begin{equation}
+    \left\{ \begin{array}{}
+        x_{n+1} = x_{n} + y_{n}\\ y_{n+1} = 4x_{n} - 2y_{n} +1
+\end{array}\left
+\end{equation}
+
+\begin{equation}
+
+    H_{c} = \frac{1}{2n} \sum_{l=0}^{n} (-1)^{l}(n-l)^{p-2}
+    
+\end{equation} 
+
+\begin{equation}
+     \prod_{n=10}^{10} (n+3) 
+\end{equation}
+
+
+\begin{equation}
+    \int_{2}^{3} x \,dx
+\end{equation}
+
+\begin{equation}
+    
+\end{equation}
+
+ 
+\section{Zadanie nr 2 - tablica, macierz}
+
+
+
+
+$\begin{bmatrix}
+2+\lambda & 1 & 3 \\
+3 & -6+\lambda & 5\\
+9 & -2 & -3+\lambda 
+\end{bmatrix}  
+
+
+
+
+\begin{table}[ht]
+\begin{tabular}{|ll||l||l||l||}
+\hline
+\multicolumn{1}{||l||}{123}     & 23      & 34     \\ \hline
+\multicolumn{2}{||l||}{Połączone komórki} & 2      \\ \hline
+\multicolumn{1}{||l||}{1}       & 2247    & 3555  \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[ht]
+\begin{tabular}{@{} l l l l @{}}
+\toprule
+\toprule
+Case & Method \#1 & Method\#2 & Method\#3 \\ 
+1    & 50         & 837       & 970       \\ 
+2    & 47         & 877       & 230       \\ 
+3    & 31         & 25        & 415       \\ 
+4    & 35         & 144       & 2356      \\ 
+5    & 45         & 300       & 556       \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\section{Zadanie nr 3 - dodanie zdjęcia}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics{photo/logotypy-pwr.png}
+        \caption{Logotypy uczelni}
+        \label{fig:photo_LogotypyUczelni}
+    \end{figure}
+
+
+
+\end{document}
+
